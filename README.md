@@ -1,14 +1,11 @@
-## Decoupling Recorder Variability from Spatial and Temporal Variation of Ecological Acoustic Indices
-
-This repository contains the code and data used in the analysis presented in the article titled "Decoupling Recorder Variability from Spatial and Temporal Variation of Ecological Acoustic Indices."
+# Decoupling Recorder Variability from Spatial and Temporal Variation of Ecological Acoustic Indices
 
 ## Repository Contents
 
-### Graphics
-- `graphical_abstract.pdf` and `graphical_abstract.png`: Graphical abstracts for the article.
-
 ### Notebooks
+
 Jupyter notebooks for performing different tasks related to the analysis:
+
 - `calcular_coherencia.ipynb`: Calculates coherence between audio signals.
 - `calcular_indices.ipynb`: Calculates ecological acoustic indices (EAI) commonly used in soundscape analyses.
 - `calcular_metricas.ipynb`: Measures and compares variability among different recording devices and brands.
@@ -17,10 +14,13 @@ Jupyter notebooks for performing different tasks related to the analysis:
 - `proc_indices.ipynb`: Preprocesses and normalizes audio signals for comparison.
 
 ### Results
+
 - `figures`: Directory to store figures and results generated during the analysis.
 
 ### Utils
+
 Python modules for different utility functions used in the analysis:
+
 - `Filtros.py`: Functions for calculating filters.
 - `graphs.py`: Functions for generating graphical representations.
 - `indices.py`: Functions for calculating ecological acoustic indices (EAI).
@@ -28,10 +28,8 @@ Python modules for different utility functions used in the analysis:
 - `utils.py`: Other utility functions used in the analysis.
 
 ### License
-The license file for this repository.
 
-### README.md
-This file providing an overview of the repository.
+The license file for this repository.
 
 ## Functionality
 
@@ -51,4 +49,13 @@ The proposed preprocessing pipeline reduces EAI variability resulting from diffe
 
 For more information and details on how to use the code, refer to the Jupyter notebooks in the `notebooks` directory.
 
-For any questions or inquiries regarding the article or the code, please contact the corresponding author, José D. López, at josedavid@udea.edu.co.
+## Authors:
+- David Luna-Naranjo
+- Juan D. Martínez
+- Camilo Sánchez-Giraldo
+- Juan M. Daza
+- José D. López (Corresponding Author)
+
+This repository contains the code and data used in the analysis presented in the article titled "Decoupling Recorder Variability from Spatial and Temporal Variation of Ecological Acoustic Indices."
+
+For any questions or inquiries regarding the article or the code, feel free to open an issue in this repository, send an email to davidluna.fn@gmail.com, or contact the corresponding author, José D. López, at josedavid@udea.edu.co.
